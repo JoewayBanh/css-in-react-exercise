@@ -1,0 +1,33 @@
+$fontStyle: oleo script swash caps;
+$topMarg: 2%;
+$widthToMulti: 100px;
+$heightToMulti: 100px;
+
+.card{
+    border: 5px solid black ;
+    width: $widthToMulti * 2;
+    height: $heightToMulti * 3.75;
+    margin: auto;
+    margin-top: $topMarg;
+    border-radius: 5%;
+}
+
+.cardImg{
+    color: red;
+    width: $widthToMulti * 1.5;
+    height: $heightToMulti * 1.5;
+    margin-top: $topMarg;
+    border-radius: 5%;
+}
+
+.title{
+    font-family: $fontStyle;
+}
+
+.cardText{
+    font-style: italic;
+}
+.btn{
+    font-family: $fontStyle;
+    color: blue
+}
